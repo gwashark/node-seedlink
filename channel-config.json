@@ -1,31 +1,362 @@
-[{
-  "name": "NL.HGN",
-  "host": "eida.orfeus-eu.org",
-  "port": 18000,
-  "selectors": [{
-    "network": "NL",
-    "station": "HGN",
-    "channel": "???",
-    "location": "??"
-  }]
-}, {
-  "name": "NL.WTSB",
-  "host": "eida.orfeus-eu.org",
-  "port": 18000,
-  "selectors": [{
-    "network": "NL",
-    "station": "WTSB",
-    "channel": "???",
-    "location": "??"
-  }]
-}, {
-  "name": "NL.OPLO",
-  "host": "eida.orfeus-eu.org",
-  "port": 18000,
-  "selectors": [{
-    "network": "NL",
-    "station": "OPLO",
-    "channel": "???",
-    "location": "??"
-  }]
-}]
+[
+  {
+    "name": "AusPass",
+    "host": "auspass.edu.au",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "BGR",
+    "host": "eida.bgr.de",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "CISMID",
+    "host": "www.cismid.uni.edu.pe",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "ENS",
+    "host": "ephesite.ens.fr",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "GEOFON",
+    "host": "geofon.gfz-potsdam.de",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "GEONET",
+    "host": "link.geonet.org.nz",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "Geoscience-Australia",
+    "host": "seis-pub.ga.gov.au",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "GSRAS",
+    "host": "89.22.182.133",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "Helsinki",
+    "host": "finseis.seismo.helsinki.fi",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "Haiti",
+    "host": "ayiti.unice.fr",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "ICGC",
+    "host": "ws.icgc.cat",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "IDA-Project",
+    "host": "rtserve.ida.ucsd.edu",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "IFZ",
+    "host": "data.ifz.ru",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "IPGP",
+    "host": "rtserver.ipgp.fr",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "IRIS-DMC",
+    "host": "rtserve.iris.washington.edu",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "IRIS-Jamaseis",
+    "host": "jamaseis.iris.edu",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "ISNET-UNINA",
+    "host": "185.15.171.86",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "LMU",
+    "host": "erde.geophysik.uni-muenchen.de",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "NIGGG",
+    "host": "195.96.231.100",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "NRCAN",
+    "host": "earthquakescanada.nrcan.gc.ca",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "OBSEBRE",
+    "host": "obsebre.es",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "OGS",
+    "host": "nam.ogs.it",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "Oklahoma-University",
+    "host": "rtserve.ou.edu",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "ORFEUS",
+    "host": "eida.orfeus-eu.org",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "PLSN",
+    "host": "hudson.igf.edu.pl",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "Red-Sismica-de-Puerto-Rico",
+    "host": "161.35.236.45",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "Red-Sismica-Baru",
+    "host": "helis.redsismicabaru.com",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "RESIF",
+    "host": "rtserve.resif.fr",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "SANET",
+    "host": "147.213.113.73",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "RSIS",
+    "host": "rsis1.on.br",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "SCSN-USC",
+    "host": "eeyore.seis.sc.edu",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "Seisme-IRD",
+    "host": "rtserve.ird.nc",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "Staneo",
+    "host": "vibrato.staneo.fr",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "SNAC-NOA",
+    "host": "snac.gein.noa.gr",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "TexNet",
+    "host": "rtserve.beg.utexas.edu",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "Thai-Meteorological-Department",
+    "host": "119.46.126.38",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "UFRN",
+    "host": "sislink.geofisica.ufrn.br",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "Unical",
+    "host": "www.sismocal.org",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "UNITS",
+    "host": "rtweb.units.it",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "UNIV-AG",
+    "host": "seedsrv0.ovmp.martinique.univ-ag.fr",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "Universidade-de-Evora",
+    "host": "clv-cge.uevora.pt",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "Universidad-de-Colima",
+    "host": "148.213.24.15",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "UPR",
+    "host": "worm.uprm.edu",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "USGS",
+    "host": "cwbpub.cr.usgs.gov",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  },
+  {
+    "name": "USP-IAG",
+    "host": "seisrequest.iag.usp.br",
+    "port": 18000,
+    "selectors": [
+      { "network": "*", "station": "*", "channel": "???", "location": "??" }
+    ]
+  }
+]
